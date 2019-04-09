@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+    <title>Exercice7JavaScript</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="d-flex">
+            <div class="p-2 mx-2 mt-3 p-3 bg-primary text-left">
+                <h3>Exercice 7</h3>
+                Demander à l’utilisateur sa pointure et son année de naissance. Créer une fonction qui fait les
+                calculs
+                suivants :
+                <ul>
+                    <li>Multiplier la pointure par 2</li>
+                    <li>Ajouter 5 au résultat</li>
+                    <li>Multiplier le tout par 50</li>
+                    <li>Soustraire l’année de naissance</li>
+                    <li>Ajouter au tout 1766</li>
+                </ul>
+                La fonction doit retourner le résultat. Tester avec votre date de naissance et votre pointure.
+                Attention : n'utiliser qu'une seule variable de résultat.
+            </div>
+            <div class="p-2 mx-2 mt-3 p-3 bg-secondary text-left">
+                <form class="center">
+                    <h3 class="strong">Formulaire</h3>
+                    <!-- Pointure -->
+                    <label for="pointure">Inserer votre pointure</label>
+                    <input class="d-inline-block" id="pointure" type="text" name="pointure" placeholder="Example: 39"<br />
+                    <!-- L'année de naissance-->
+                    <label for="naissance">Inserer l'année de naissance :</label>
+                    <input id="naissance" type="text" name="naissance" placeholder="Example: 1987"><br /><br />
+
+                    <p>Appuyer "Valider" pour faire le calcul.</p>
+                    <button onclick="myFunction()">Valider</button>
+                </form>
+            </div>
+        </div> <!-- fin de div pour le group de deux div -->
+    </div>
+    <!-- SCRIIIIIIIIIIIIIIIIIIIIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

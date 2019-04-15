@@ -24,27 +24,24 @@
                     <li>Soustraire l’année de naissance</li>
                     <li>Ajouter au tout 1766</li>
                 </ul>
-                La fonction doit retourner le résultat. Tester avec votre date de naissance et votre pointure.
+                La fonction doit retourner le résultat. Tester avec votre date de yearOfBirth et votre ShoeSize.
                 Attention : n'utiliser qu'une seule variable de résultat.
             </div>
             <div class="p-2 mx-2 mt-3 p-3 bg-secondary text-left">
                 <form class="center">
                     <h3 class="strong">Formulaire</h3>
-                    <!-- Pointure -->
-                    <label for="pointure">Inserer votre pointure</label>
-                    <input class="d-inline-block" id="pointure" type="text" name="pointure" placeholder="Example: 39"<br />
-                    <!-- L'année de naissance-->
-                    <label for="naissance">Inserer l'année de naissance :</label>
-                    <input id="naissance" type="text" name="naissance" placeholder="Example: 1987"><br /><br />
-
-                    <p>Appuyer "Valider" pour faire le calcul.</p>
-                    <button onclick="myFunction()">Valider</button>
+                    <!-- ShoeSize -->
+                    <label for="shoeSize">Pointure : </label>
+                    <input type="text" id="shoeSize" name="shoeSize"/><br/>
+                    <label for="yearOfBirth">Année de naissance: </label>
+                    <input type="text" id="yearOfBirth" name="yearOfBirth"/><br/>
+                    <button id="submit" name="submit" onclick="calcul()">Valider</button>
                 </form>
             </div>
         </div> <!-- fin de div pour le group de deux div -->
     </div>
     <!-- SCRIIIIIIIIIIIIIIIIIIIIPT -->
-    <script src="script.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
